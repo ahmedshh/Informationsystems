@@ -1,69 +1,32 @@
-# E-Doc
+# E Doc
 
-E-Doc is a specialized platform designed for the medical community to manage patient records efficiently and facilitate online communication through video and chat. This platform is particularly suited for private doctors who need an all-in-one solution to handle their patient interactions and record-keeping seamlessly.
+**E Doc** is a healthcare management platform that streamlines workflows, enhances communication, and provides healthcare professionals with the tools they need to offer the best patient care. This platform is designed to optimize record-keeping, facilitate easier communication between doctors and patients, and help improve patient outcomes.
 
 ## Features
 
-- **Patient Record Management:** Every Doctor keeps the electronic health records (EHR) for their patient separately.
-- **Online Video and Chat:** Communicate with patients through video calls and chat (in progress).
-- **User-Friendly Interface:** Easy to use for doctors.
-- **Secure Data Handling:** Keeps all patient data safe and private.
+- **User-Centered Design**: Designed with the user in mind to make tasks simple and intuitive.
+- **Secure and Reliable**: We ensure data security and reliability for healthcare professionals and their patients.
+- **Streamlined Processes**: Designed to make healthcare management as efficient as possible.
+- **Continuous Support**: We provide ongoing support to ensure the platform meets your needs.
 
-## Benefits
+## Technologies Used
 
-- **Efficient Workflow:** Makes managing patient records and communication easy and quick.
-- **Enhanced Patient Care:** Better patient engagement through online consultations.
-- **Integrated Solution:** Everything you need in one platform, no need for multiple tools.
+- **HTML5** - Structure and layout of the platform.
+- **CSS3** - Styling and design of the platform.
+- **Bootstrap 5** - Responsive design and components.
+- **JavaScript** - Frontend functionality and dynamic features.
+- **PHP** - Backend support (Login, data storage, etc.)
 
-## Getting Started
+## Installation
 
-### Using Docker
+To run this project locally using **XAMPP**, follow these steps:
 
-1. **Install Docker:** Make sure Docker is installed on your machine.
-2. **Clone the Repository:** Clone the E-Doc repository from GitHub.
-    ```
-    git clone https://github.com/Abdul-Hannan-21/e-doc.git
-    ```
-3. **Navigate to the Directory:**
-    ```
-    cd e-doc
-    ```
-4. **Build and Run the Docker Container:**
-    ```
-    docker-compose up --build
-    ```
-5. **Access E-Doc:** Open your browser and go to `http://localhost:your-port` to access the platform.
+### 1. Install XAMPP
 
-### Using GitHub Codespaces
+- Download and install **XAMPP** from the official site: [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
+- After installation, open the **XAMPP Control Panel**.
 
-1. **Open Repository in Codespaces:** Go to the E-Doc repository on GitHub and click on the "Code" button, then select "Open with Codespaces".
-2. **Setup Environment:** Codespaces will automatically set up the environment based on the repository configuration.
-3. **Run E-Doc:** Follow the instructions provided in the repository to start the application within Codespaces.
+### 2. Set Up XAMPP
 
-## Troubleshooting
+- Start the **Apache** and **MySQL** services in the XAMPP Control Panel.
 
-If you encounter any issues while using E-Doc, here are some steps you can take to troubleshoot:
-
-### Application Not Loading Properly
-
-- **Issue:** Sometimes the application may not load correctly on the first attempt.
-
-- **Solution:** If you see an error message or the page isn’t loading as expected, try refreshing your browser (`F5` or `Ctrl + R`). This can often resolve temporary issues with the application loading process.
-
-### Docker Container Issues
-
-- **Issue:** Docker containers (`www`, `db`, `phpmyadmin`) not starting or encountering errors.
-
-- **Solution:** Check the Docker logs to identify any errors:
-  ```bash
-  docker-compose logs
-
-
-
-## Contribution
-
-E-Doc was developed by:
-
-- Abdul Mannan
-- Abdul Hannan
-- Yadwinder Singh
